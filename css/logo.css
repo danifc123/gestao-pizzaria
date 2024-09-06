@@ -1,2 +1,8 @@
 .logo {
+  align-items: center;
+  margin-top: 90px;
+}
+.logo-img {
+  border-radius: 100%;
+  max-width: 200px;
 }

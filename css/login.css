@@ -19,20 +19,11 @@
 .login-texto {
   text-align: left;
   margin-left: 30px;
-}
-
-.button {
-  color: #fff;
-  background: #ffa000;
-  border-radius: 30px;
-  padding: 10px 20px;
-  margin: 40px;
-  place-items: center;
   display: block;
-  text-transform: uppercase;
-  text-decoration: none;
 }
-
+.login-button {
+  align-items: center;
+}
 .button-text {
   color: #ffa000;
   text-decoration: none;

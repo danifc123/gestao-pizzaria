@@ -20,21 +20,21 @@
 
   <main>
     <section aria-label="Login">
-      <div class="login">
-
+      <form action="./" class="login">
         <div class="login-escopo">
-          <p class="login-texto">Email</p>
-          <input class="login-email" type="text">
 
-          <p class="login-texto">Password</p>
-          <input class="login-email" type="text">
-          <a class="button" href="/">Entrar</a>
+          <label for="email" class="login-texto">Email</label>
+          <input type="email" id="email" name="email" class="login-email" required>
+
+          <label for="senha" class="login-texto">Password</label>
+          <input type="password" id="senha" class="login-email" required>
+
+          <div class="login-button">
+            <button>Entrar</button>
+          </div>
           <a class="button-text" href="/">Esqueceu sua senha?</a>
         </div>
-
-      </div>
-
-
+      </form>
     </section>
   </main>
 </body>

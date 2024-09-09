@@ -3,6 +3,8 @@
   height: 520px;
   width: 300px;
   border-radius: 30px;
+  place-items: center;
+  text-align: center;
 }
 
 .login-email {
@@ -10,4 +12,28 @@
   border: 3px solid orange;
   width: 240px;
   height: 34px;
+}
+.login-escopo {
+  padding-top: 40px;
+}
+.login-texto {
+  text-align: left;
+  margin-left: 30px;
+}
+
+.button {
+  color: #fff;
+  background: #ffa000;
+  border-radius: 30px;
+  padding: 10px 20px;
+  margin: 40px;
+  place-items: center;
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.button-text {
+  color: #ffa000;
+  text-decoration: none;
 }

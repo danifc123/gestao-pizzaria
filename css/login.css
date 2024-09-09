@@ -1,0 +1,13 @@
+.login {
+  background: #ffd38a;
+  height: 520px;
+  width: 300px;
+  border-radius: 30px;
+}
+
+.login-email {
+  border-radius: 10px;
+  border: 3px solid orange;
+  width: 240px;
+  height: 34px;
+}

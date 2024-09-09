@@ -1,11 +1,11 @@
 html {
   background: #ffa000;
-  display: grid;
-  text-align: center;
 }
 
 body {
+  display: grid;
   font-family: Arial, Helvetica, sans-serif;
+  place-items: center;
 }
 img {
   max-width: 100%;

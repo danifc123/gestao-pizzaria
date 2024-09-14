@@ -1,5 +1,5 @@
 .login {
-  background: #ffd38a;
+  background: var(--cor-l0);
   height: 520px;
   width: 300px;
   border-radius: 30px;
@@ -8,7 +8,7 @@
 }
 .login-email {
   border-radius: 10px;
-  border: 3px solid orange;
+  border: 3px solid var(--cor-l2);
   width: 240px;
   height: 34px;
 }
@@ -24,11 +24,11 @@
   align-items: center;
 }
 button:hover {
-  color: #ffa000;
-  background: #ffffe3;
-  border: 0.2px solid #ffa000;
+  color: var(--cor-l1);
+  background: var(--cor-1);
+  border: 0.2px solid var(--cor-l1);
 }
 .button-text {
-  color: #ffa000;
+  color: var(--cor-l1);
   text-decoration: none;
 }

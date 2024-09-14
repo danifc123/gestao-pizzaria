@@ -1,5 +1,5 @@
 html {
-  background: #ffa000;
+  background: var(--cor-l1);
 }
 body {
   display: grid;
@@ -13,8 +13,8 @@ input {
   font-size: 1.5rem;
 }
 button {
-  color: #fff;
-  background: #ffa000;
+  color: var(--cor-0);
+  background: var(--cor-l1);
   border-radius: 30px;
   padding: 10px 20px;
   margin: 10px 30px;

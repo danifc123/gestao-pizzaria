@@ -8,9 +8,7 @@ img {
 input {
   font-size: 1.5rem;
 }
-.titulo {
-  margin: 20px;
-}
+
 .button {
   color: var(--cor-0);
   background: var(--cor-l1);

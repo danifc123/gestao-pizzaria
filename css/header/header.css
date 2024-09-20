@@ -34,8 +34,13 @@ header {
   background-color: var(--cor-4);
   padding: 10px;
   border-radius: 5px;
+  border: 2px solid var(--cor-4);
 }
 .header-nav a {
   text-decoration: none;
   padding: 20px 10px;
+}
+.header-nav li:hover {
+  background-color: var(--cor-l0);
+  border: 2px solid var(--cor-l4);
 }

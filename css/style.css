@@ -12,3 +12,6 @@
 /*Utilities*/
 @import "./utilidades/cor.css";
 @import "./utilidades/tipografia.css";
+
+/*Produtos*/
+@import "./produto/produto.css";

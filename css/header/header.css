@@ -13,7 +13,7 @@ header {
   border-radius: 100%;
   position: absolute;
   right: 60px;
-  top: 0px;
+  top: 10px;
 }
 .header-logout {
   padding: 14px;

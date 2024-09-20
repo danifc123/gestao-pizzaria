@@ -8,10 +8,22 @@ img {
 input {
   font-size: 1.5rem;
 }
+body {
+  background-color: var(--cor-2);
+}
 
-.button {
+.button-login {
   color: var(--cor-0);
   background: var(--cor-l1);
+  border-radius: 30px;
+  padding: 10px 20px;
+  margin: 10px 30px;
+  text-transform: uppercase;
+  border: 0.2px solid var(--cor-l1);
+}
+.button {
+  color: var(--cor-0);
+  background: var(--cor-l4);
   border-radius: 30px;
   padding: 10px 20px;
   margin: 10px 30px;

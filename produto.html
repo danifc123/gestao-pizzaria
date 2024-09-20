@@ -2,7 +2,7 @@
 
 <head>
   <meta lang="pt-br" charset="UTF-8">
-  <title>Administrador</title>
+  <title>Administrador | Produtos</title>
 
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,4 +28,35 @@
       </ul>
     </nav>
   </header>
+
+  <main>
+    <h1 class="font-1-xl cor-l4">Produtos</h1>
+    <section aria-label="Adicionar um novo produto">
+
+      <form class=" produto-container" action="./">
+        <div>
+          <img src="./img/img/rectangle.png" alt="">
+          <img src="./img/icones/setabaixo.png" alt="">
+        </div>
+
+
+        <div class="produto-content">
+          <label for="nome"></label>
+          <input class="font-1-m-b" type="text" placeholder="Nome do Produto" id="nome" name="nome">
+        </div>
+        <div class="produto-content">
+          <label for="descricao"></label>
+          <textarea class="font-1-m-b" rows="5" id="descricao" placeholder="Descrição do Produto" name="descricao"></textarea>
+        </div>
+
+        <div class="produto-content">
+          <label for="preco"></label>
+          <input class="font-1-m-b" type="text" id="preco" placeholder="Preço do Produto" name="preco">
+
+        </div>
+        <button class="button">Adicionar Produto</button>
+      </form>
+    </section>
+  </main>
+
 </body>

@@ -1,0 +1,19 @@
+.home-bg {
+  background: var(--cor-2);
+}
+.home-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  justify-items: center;
+}
+.home-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 196px;
+  width: 400px;
+  border: 3px solid orange;
+  border-radius: 10px;
+  padding: 10px;
+  place-items: center;
+}

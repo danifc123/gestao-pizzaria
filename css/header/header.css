@@ -21,3 +21,21 @@ header {
   justify-content: end;
   background-color: var(--cor-l4);
 }
+.header-nav {
+  padding: 20px 30px 20px 30px;
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  color: var(--cor-p1);
+}
+.header-nav li {
+  list-style: none;
+  display: inline-block;
+  background-color: var(--cor-4);
+  padding: 10px;
+  border-radius: 5px;
+}
+.header-nav a {
+  text-decoration: none;
+  padding: 20px 10px;
+}

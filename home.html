@@ -2,16 +2,59 @@
 
 <head>
     <meta lang="pt-br" charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
     <title>Administrador</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600&family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="home-bg">
     <header>
         <div class="header-bg">
-            <h1 class="header-titulo ">Carioca´s Pizzaria Administração</h1>
+            <h1 class="header-titulo font-1-xxl cor-l7">Carioca´s Pizzaria - Administração</h1>
         </div>
-        <div class="header-logout"><a href="./"><img src="./img/icones/logout.png" alt=""></a></div>
         <img class=" header-logo" src="./img/Logo.png" alt="">
+        <div class="header-logout"><a href="./"><img src="./img/icones/logout.png" alt=""></a></div>
+        <nav>
+            <ul class="header-nav font-1-s">
+                <li><a href="./home.html"> Home</a></li>
+                <li><a href="./">Produto</a></li>
+                <li><a href="./">Pedidos</a></li>
+                <li><a href="./">Relatorio</a></li>
+                <li><a href="./">Usúarios</a></li>
+                <li><a href="./">Configuração</a></li>
+            </ul>
+        </nav>
     </header>
+
+
+    <main>
+        <h1 class="titulo font-1-xl cor-l4">Visão Geral</h1>
+        <div class="home-content">
+            <div class="font-2-m home-container">
+                <h2 class="cor-l4">Pedidos Hoje</h2>
+                <img width="32" height="32" src="./img/icones/carrinho.png" alt="">
+                <h2>50</h2>
+            </div>
+            <div class="font-2-m home-container">
+                <h2 class="cor-l4">Faturamento Hoje</h2>
+                <img width="32" height="32" src="./img/icones/dinheiro.png" alt="">
+                <h2>R$1.950,00</h2>
+            </div>
+            <div class="font-2-m home-container">
+                <h2 class="cor-l4">Novos Clientes</h2>
+                <img width="32" height="32" src="./img/icones/pessoas.png" alt="">
+                <h2>10</h2>
+            </div>
+            <div class="font-2-m home-container">
+                <h2 class="cor-l4">Pedidos Pendentes</h2>
+                <img width="32" height="32" src="./img/icones/pendente.png" alt="">
+                <h2>2</h2>
+            </div>
+        </div>
+    </main>
+
+
 </body>

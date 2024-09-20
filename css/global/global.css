@@ -1,11 +1,15 @@
 * {
   margin: 0;
+  color: inherit;
 }
 img {
   max-width: 100%;
 }
 input {
   font-size: 1.5rem;
+}
+.titulo {
+  margin: 20px;
 }
 .button {
   color: var(--cor-0);

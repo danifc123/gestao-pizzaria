@@ -1,8 +1,16 @@
-:root{
---cor-0:#ffffff;
---cor-1:#ffffe3;
+:root {
+  --cor-0: #ffffff;
+  --cor-1: #ffffe3;
+  --cor-2: #ffedd5;
+  --cor-3: #fed7aa;
+  --cor-4: #fdba74;
 
---cor-l0: #ffd38a;
---cor-l1:#ffa000;
---cor-l2:orange;
+  --cor-l0: #ffd38a;
+  --cor-l1: #ffa000;
+  --cor-l2: orange;
+  --cor-l3: #f97316;
+  --cor-l4: #ea580c;
+  --cor-l5: #7c2d12;
+  --cor-l6: #9a3412;
+  --cor-l7: #7c2d12;
 }

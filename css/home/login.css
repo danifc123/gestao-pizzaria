@@ -1,3 +1,9 @@
+.login-bd {
+  background: var(--cor-l1);
+  display: grid;
+  font-family: Arial, Helvetica, sans-serif;
+  place-items: center;
+}
 .login {
   background: var(--cor-l0);
   height: 520px;

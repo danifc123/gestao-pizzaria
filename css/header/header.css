@@ -1,0 +1,23 @@
+header {
+  position: relative;
+}
+.header-bg {
+  display: flex;
+  background-color: var(--cor-l1);
+}
+.header-titulo {
+  padding: 32px;
+}
+.header-logo {
+  max-width: 150px;
+  border-radius: 100%;
+  position: absolute;
+  right: 60px;
+  top: 0px;
+}
+.header-logout {
+  padding: 14px;
+  display: flex;
+  justify-content: end;
+  background-color: var(--cor-l4);
+}

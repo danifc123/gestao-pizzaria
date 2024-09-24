@@ -11,6 +11,11 @@ input {
 body {
   background-color: var(--cor-2);
 }
+.container{
+  display: flex;
+  justify-content: space-between;
+  
+}
 
 .button-login {
   color: var(--cor-0);

@@ -7,14 +7,31 @@
   width: 400px;
   border-radius: 10px;
   background: var(--cor-3);
+  position: relative;
+  margin-left: 100px;
+  margin-top: 0;
+}
+.produto-content{
+  align-self: end;
 }
 .produto-content input,
 .produto-content textarea {
   border-radius: 10px;
   border: 3px solid var(--cor-l2);
-  width: 300px;
+  width: 250px;
   height: 40px;
 }
 .produto-content textarea {
   height: 100px;
+}
+.produto-img,
+.seta{
+  position: absolute;
+}
+.seta{
+  right: 30px;
+  top: 30px;
+}
+.texto-produto{
+  margin-left: 100px;
 }

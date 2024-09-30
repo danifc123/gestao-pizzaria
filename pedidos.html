@@ -29,32 +29,56 @@
     </nav>
   </header>
 
-  <main >
+  <main>
     <h1 class=" texto-produto font-1-xl cor-l4">Pedidos</h1>
     <div class="container">
-    <section  aria-label="Adicionar um novo produto">
+      <section aria-label="Registro dos pedidos">
 
-      <form class=" produto-container" action="./">
+        <form class=" produto-container" action="./">
+          <h2 class="font-1-xl cor-l4">Atualizar Pedido</h2>
 
-        <button class="button">Atualizar Pedido</button>
-      </form>
-    </section>
-  
+          <p class="font-1-m pedidos-p">id do pedido</p>
+
+          <label for="=pedido" class="login-texto"></label>
+          <input type="pedido" id="pedido" name="pedido" placeholder="digite o id do pedido" class="login-email">
+
+
+          <p class="font-1-m pedidos-p">Status do pedido</p>
+          <select class="status-colum font-1-m " name="status-pedidos" id="status-pedidos">
+            <option value="opcao1">Em preparo</option>
+            <option value="opcao2">Aceito pelo estabelecimento</option>
+            <option value="opcao3">Saindo para entrega</option>
+          </select>
+
+          <button class="button">Atualizar Pedido</button>
+        </form>
+      </section>
 
 
 
-  <section>
-      <div class="produtos-container" >
-      <div class="font-2-l produtos cor-l4">
-        <h1>Produtos Cadatrados</h1>
-        <img src="./img/icones/carrinho.png" alt="">
-      </div>
 
-        
-      </ul>
+      <section>
+        <div class="produtos-container">
+          <div class="font-2-l produtos cor-l4">
+            <h1>Pedidos Pendentes</h1>
+            <img src="./img/icones/carrinho.png" alt="">
+          </div>
+          <div class="font-2-l pedidos-pendentes">
+            <p>Pedido#002</p>
+            <p>1-pizza calabresa</p>
+            <p>1-coca cola</p>
+          </div>
+
+          <div class="font-2-l pedidos-pendentes">
+            <p>Pedido#001</p>
+            <p>1-pizza de frango</p>
+
+          </div>
+
+          </ul>
+        </div>
+      </section>
     </div>
-  </section>
-</div>
   </main>
 
 </body>

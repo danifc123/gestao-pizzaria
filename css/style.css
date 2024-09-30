@@ -16,3 +16,12 @@
 /*Produtos*/
 @import "./produto/produto.css";
 @import "./produtosc/produtosc.css";
+
+/*Pedidos*/
+@import "./pedidos/pedidos.css";
+
+/*Relatórios*/
+@import "./relatorio/relatorio.css";
+
+/*Usuarios*/
+@import "./usuarios/usuarios.css";

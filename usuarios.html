@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<head>
+  <meta lang="pt-br" charset="UTF-8">
+  <title>Administrador | Produtos</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600&family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="header-bg">
+      <h1 class="header-titulo font-1-xxl cor-l7">Carioca´s Pizzaria - Administração</h1>
+    </div>
+    <img class=" header-logo" src="./img/Logo.png" alt="">
+    <div class="header-logout"><a href="./"><img src="./img/icones/logout.png" alt=""></a></div>
+    <nav>
+      <ul class="header-nav font-1-s">
+        <li><a href="./home.html"> Home</a></li>
+        <li><a href="./produto.html">Produto</a></li>
+        <li><a href="./pedidos.html">Pedidos</a></li>
+        <li><a href="./relatorio.html">Relatorio</a></li>
+        <li><a href="./usuarios.html">Usúarios</a></li>
+        <li><a href="./configuracao.html">Configuração</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <div class="gerenciadores font-1-s">
+      <a href="./">Gerenciador de usuarios</a>
+      <a href="./">Gerenciador de clientes</a>
+    </div>
+    <div class="usuario">
+
+      <div class="produto-container">
+        <div class="cadatro-titulo">
+          <h1>Cadastrar Funcionário</h1>
+          <img src="./img/icones/relatorio.png" alt="">
+        </div>
+
+        <p>Nome do funcionario</p>
+        <form class=" nome-funcionario" action="./">
+          <label for="=nome-funcionario" class="login-texto"></label>
+          <input type="nome-funcionario" id="nome-funcionario" name="nome-funcionario" placeholder="nome do funcionario" class="login-email">
+
+          <p>Email</p>
+          <label for="email" class="login-texto"></label>
+          <input type="email" id="email" placeholder="Email" name="email" class="login-email" required>
+
+
+          <p>Função</p>
+          <label for="=nome-funcionario" class="login-texto"></label>
+          <input type="nome-funcionario" id="nome-funcionario" name="nome-funcionario" placeholder="Digite a fcunção" class="login-email">
+          <button class="button">Atualizar Pedido</button>
+      </div>
+
+      <div>
+        <h2>Funcionário Cadastro</h2>
+      </div>
+    </div>
+  </main>

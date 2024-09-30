@@ -1,0 +1,24 @@
+.usuario {
+  display: flex;
+  justify-content: space-around;
+}
+.cadatro-titulo {
+  display: flex;
+  gap: 20px;
+}
+.gerenciadores {
+  text-align: center;
+  margin: 20px;
+}
+.gerenciadores a {
+  text-align: center;
+  text-decoration: none;
+  background: var(--cor-l0);
+  padding: 10px;
+  border-radius: 4px;
+  border: 3px solid var(--cor-l0);
+}
+.gerenciadores a:hover {
+  background: var(--cor-l2);
+  border: 3px solid var(--cor-l4);
+}

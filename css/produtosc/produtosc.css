@@ -1,13 +1,12 @@
-.produtos{
+.produtos {
   display: flex;
   align-items: center;
   gap: 20px;
-  
 }
-.produtos img{
-display: block;
+.produtos img {
+  display: block;
 }
-.produtos-container{
+.produtos-container {
   border: 3px solid orange;
   padding: 30px;
   height: 470px;
@@ -15,19 +14,17 @@ display: block;
   border-radius: 10px;
   background: var(--cor-3);
   margin-right: 200px;
-
 }
-.produtos-cadastrados{
+.produtos-cadastrados {
   list-style: none;
 }
-.produtos-cadastrados li{
+.produtos-cadastrados li {
   display: flex;
   margin-top: 10px;
-  gap: 10px ;
+  gap: 10px;
 }
-.produtos-descricao{
+.produtos-descricao {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-

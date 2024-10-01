@@ -25,3 +25,7 @@
 
 /*Usuarios*/
 @import "./usuarios/usuarios.css";
+@import "./usuarios/gerenciadorCliente.css";
+
+/*Configurações*/
+@import "./configuracoes/configuracoes.css";

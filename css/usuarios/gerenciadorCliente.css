@@ -1,0 +1,11 @@
+.container-gerenciador {
+  border: 3px solid var(--cor-l4);
+  background: var(--cor-3);
+  width: 1200px;
+  height: 400px;
+  margin-left: 300px;
+  border-radius: 4px;
+}
+.container-gerenciador h2 {
+  margin: 30px;
+}

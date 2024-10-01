@@ -22,3 +22,12 @@
   background: var(--cor-l2);
   border: 3px solid var(--cor-l4);
 }
+.funcionario-container {
+  border-radius: 10px;
+  border: 3px solid var(--cor-l2);
+  background-color: var(--cor-2);
+}
+.funcionario-container a,
+.funcionario-container p {
+  margin: 10px;
+}

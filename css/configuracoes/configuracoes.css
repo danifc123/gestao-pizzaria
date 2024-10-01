@@ -7,4 +7,13 @@
   width: 1255px;
   height: 463px;
   margin-left: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+.config-content div {
+  margin-top: 60px;
+}
+.center {
+  margin-left: 850px;
 }

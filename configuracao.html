@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<head>
+  <meta lang="pt-br" charset="UTF-8">
+  <title>Administrador | Produtos</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600&family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="header-bg">
+      <h1 class="header-titulo font-1-xxl cor-l7">Carioca´s Pizzaria - Administração</h1>
+    </div>
+    <img class=" header-logo" src="./img/Logo.png" alt="">
+    <div class="header-logout"><a href="./"><img src="./img/icones/logout.png" alt=""></a></div>
+    <nav>
+      <ul class="header-nav font-1-s">
+        <li><a href="./home.html"> Home</a></li>
+        <li><a href="./produto.html">Produto</a></li>
+        <li><a href="./pedidos.html">Pedidos</a></li>
+        <li><a href="./relatorio.html">Relatorio</a></li>
+        <li><a href="./usuarios.html">Usúarios</a></li>
+        <li><a href="./configuracao.html">Configuração</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1 class="config-titulo font-1-xl cor-l4">Configuração do Estabelecimento</h1>
+
+    <div class="config-content">
+      <div>
+        <h2>Horário de Abertura</h2>
+        <label for="hora"></label>
+        <input id="hora" type="time" name="hora" value="" class="login-email" />
+      </div>
+
+      <div>
+        <h2>Valor minimo do Pedido</h2>
+        <label for="valor-min" class="login-texto"></label>
+        <input type="password" id="valor-min" placeholder="Digite o valor" name="valor-min" class="login-email">
+      </div>
+
+      <div>
+        <h2>Horário de Encerramento</h2>
+        <label for="hora"></label>
+        <input id="hora" type="time" name="hora" value="" class="login-email" />
+      </div>
+    </div>
+  </main>

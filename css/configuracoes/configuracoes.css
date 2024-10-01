@@ -1,0 +1,10 @@
+.config-titulo {
+  margin-left: 300px;
+  margin-bottom: 50px;
+}
+.config-content {
+  background: var(--cor-l0);
+  width: 1255px;
+  height: 463px;
+  margin-left: 300px;
+}

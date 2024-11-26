@@ -11,7 +11,7 @@
   margin-left: 100px;
   margin-top: 0;
 }
-.produto-content{
+.produto-content {
   align-self: end;
 }
 .produto-content input,
@@ -25,13 +25,67 @@
   height: 100px;
 }
 .produto-img,
-.seta{
+.seta {
   position: absolute;
 }
-.seta{
+.seta {
   right: 30px;
   top: 30px;
 }
-.texto-produto{
+.texto-produto {
   margin-left: 100px;
+}
+
+@media (max-width: 1061px) {
+  .font-1-xxl {
+    font: 600 2rem/1.25 "Poppins", sans-serif;
+  }
+}
+
+@media (max-width: 768px) {
+  .produto-container {
+    max-width: 90%;
+  }
+
+  .produtos-cadastrados {
+    grid-template-columns: 1fr;
+  }
+
+  .produtos-descricao p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-titulo {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .produto-container {
+    padding: 15px;
+  }
+
+  .button {
+    font-size: 0.9rem;
+  }
+
+  .produtos-cadastrados li {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .produtos-cadastrados li img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .produtos-descricao h2 {
+    font-size: 1rem;
+  }
+
+  .produtos-descricao p {
+    font-size: 0.7rem;
+  }
 }

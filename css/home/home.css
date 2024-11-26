@@ -26,3 +26,36 @@
   margin: 20px;
   text-align: center;
 }
+/* Media Queries para telas menores */
+@media (max-width: 1366px) {
+}
+@media (max-width: 768px) {
+  .home-content {
+    grid-template-columns: 1fr;
+  }
+
+  .home-container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-titulo {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .home-container {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  .home-container div img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .titulo {
+    font-size: 1.5rem;
+  }
+}
